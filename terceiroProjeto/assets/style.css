@@ -1,0 +1,35 @@
+
+.rand-bg{
+	background-color: #c72923;
+}
+
+.quoteBox{
+	display: inline-block;
+	width: 600px; 
+	border-radius: 10px;
+	background: #fff;
+	-webkit-box-shadow: 7px 7px 17px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 17px 0px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 17px 0px rgba(0,0,0,0.75);
+}
+
+#quote{
+  font-size:2em;
+}
+
+button, #gaoey{
+  color: white;
+  padding:8px !important;
+}
+
+.fa-twitter-square{
+  font-size:40px !important;
+}
+
+.center{
+	padding-top: 250px;
+	text-align: center;
+	justify-content: center;
+  	align-items: center
+}
+
