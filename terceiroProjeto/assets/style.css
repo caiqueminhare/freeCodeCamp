@@ -17,11 +17,6 @@
   font-size:2em;
 }
 
-button, #gaoey{
-  color: white;
-  padding:8px !important;
-}
-
 .fa-twitter-square{
   font-size:40px !important;
 }
@@ -31,5 +26,9 @@ button, #gaoey{
 	text-align: center;
 	justify-content: center;
   	align-items: center
+}
+
+.gap{
+	margin-top: 50px;
 }
 
