@@ -7,10 +7,9 @@ body{
 	background-size: auto;
 	background-attachment: scroll;
 	background-repeat: repeat;
-}
-
-header{
-	margin-bottom: 25px ;
+	height:100%;
+	width: 100%;
+	display: table;
 }
 
 div {
@@ -23,8 +22,17 @@ footer{
 	background: #262626;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
+
 #trabalhos{
-	padding-top:25px;
+	padding-top:10px;
 	padding-bottom:50px;
 }
 
@@ -33,14 +41,52 @@ footer{
 	font-weight: bold;
 }
 
+.topNav .icon{
+	display: none;
+}
+
+#topNavBar button{
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 1.6em;
+	text-transform: uppercase;
+}
+
 #topNavBar li{
-	margin-top: 10px;
+	margin-top: 25px;
 	margin-right: 20px;
 	list-style-type: none;
 	display: inline-block;
 	font-size: 12px;
 	line-height: 1.6em;
 	text-transform: uppercase;
+}
+
+
+.battlestar{
+    background-color: white;
+    color: black;
+    border: 3px solid #e7e7e7;
+}
+
+.container {
+    height: auto;
+}
+
+.footer {
+    display: table-row;
+    height: 1px;
+}
+
+.hire-effect{
+	transition: color 0.25s;
+	&::before,
+  	&::after {
+	    border: 2px solid transparent;
+	    width: 0;
+	    height: 0;
+  	}
 }
 
 .justify{
@@ -55,8 +101,18 @@ footer{
 }
 
 .logo{
-	max-width:100%;
-	max-height:100%;
+	max-width:80%;
+	max-height:80%;
+}
+
+.gap{
+	padding-right: 20px;
+}
+
+.white{
+	color: #fff;
+    text-shadow: 0.5px 0.5px 0.5px #fff;
+    font-size: 2em;
 }
 
 .cont{
